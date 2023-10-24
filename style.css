@@ -1,0 +1,108 @@
+body{
+    background-color: rgb(245, 167, 193);   
+}
+
+.number1{
+    font-size: xx-large;
+    position: absolute;
+    top: 2%;
+    left: 2%;
+    background-color: whitesmoke;
+    border: solid rgb(208, 0, 135);
+    border-width: 5px;
+
+}
+
+.image{
+    position: relative;
+    left: 42%;
+    top: 10%;
+    border: dashed whitesmoke;
+    border-width: 10px;
+}
+
+.bw-image{
+    position:absolute;
+    left: 6.5%;
+    top: 27%;
+}
+
+.INFO-CONTAINER{
+    width: 30%;
+    height:.5%;
+    background-color: whitesmoke;
+    position: absolute;
+    top: 20%;
+    left:6%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 0px;
+    border: solid;
+    border-width: 10px;
+    animation-name: AnimateBorder;
+  animation-duration: 5s;
+  animation-iteration-count: infinite; 
+}
+
+@keyframes AnimateBorder{
+    50%{ border-color:rgb(255, 198, 220);}
+    100%{border-color:rgb(208, 0, 135);}
+  }
+
+  .information{
+    width: 90%;
+    position:relative;
+    left: 5%;
+    top: 10%;
+  }
+
+
+.info-word{
+    font-size: 500%;
+    position: absolute;
+    top: 10%;
+    left:15%;
+}
+
+
+.INFO-CONTAINER:hover{
+    transition: width 3s, height 3s, opacity 2s;
+    height:58%;
+    font-size: 30px;
+    flex: 4;
+}
+
+.thoughts-word{
+    font-size: 500%;
+    position:absolute;
+    bottom:5%;
+    left:7%;
+}
+
+.thoughts-container{
+    width: 30%;
+    height:.5%;
+    background-color: whitesmoke;
+    position: absolute;
+    bottom:15%;
+    left:6%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 0px;
+    border: solid;
+    border-width: 10px;
+    animation-name: AnimateBorder;
+  animation-duration: 5s;
+  animation-iteration-count: infinite; 
+}
+
+.thoughts-container:hover{
+        transition: width 3s, height 3s, opacity 2s;
+        height:58%;
+        font-size: 22px; 
+}
+
+.thoughts{
+    width: 90%;
+    position:relative;
+    left: 5%;
+    top: 10%;
+  }
